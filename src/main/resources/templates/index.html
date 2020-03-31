@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title th:text="${title}">Index</title>
+    <title th:text="${pageTitle}">Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="keywords" content="Kids Video Game Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -43,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html"><h1>Kids <img src="../static/images/c1.png" alt=" "/> Game</h1></a>
+                <a href="index.html"><h1>[[${mainTitle}]] <img src="../static/images/c1.png" alt=" "/> [[${subheading}]]</h1></a>
             </div>
 
             <div id="navbar" class="navbar-collapse collapse">
@@ -365,8 +365,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="clearfix"></div>
         <div class="copyright">
-            <p>Copyright &copy; 2020.Company name All rights reserved.<a target="_blank"
-                                                                         href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+            <p>Copyright &copy; 2020.Company name All rights reserved.
+                <!--<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>-->
             </p>
         </div>
     </div>
